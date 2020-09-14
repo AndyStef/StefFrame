@@ -1,0 +1,11 @@
+framework module StefFrame {
+  umbrella header "StefFrame.h"
+
+  export *
+  module * { export * }
+}
+
+module StefFrame.Swift {
+    header "StefFrame-Swift.h"
+    requires objc
+}
